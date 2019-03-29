@@ -10,7 +10,7 @@ npm install -g lambda-local
 
 ###### Run command debug lambda
 ```
-lambda-local -l index.js -h handler -e sample/event.js --envfile .env
+lambda-local -l index.js -h handler -e debug/event.js --envfile debug/env
 ```
 
 ### Python
